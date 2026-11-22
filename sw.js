@@ -1,16 +1,16 @@
 /* Service worker : l'appli fonctionne entièrement hors ligne après la 1re ouverture. */
-const CACHE = 'aeroops-202611221108';
+const CACHE = 'aeroops-202611221126';
 const FILES = [
   "./",
   "app.css",
   "app.js",
   "apple-touch-icon.png",
-  "chunk-7I563G2N.js",
+  "chunk-2HE2Z4LN.js",
   "favicon-32.png",
   "icon-192.png",
   "icon-512.png",
   "icon-maskable-512.png",
-  "importer-NYF436NX.js",
+  "importer-JMATEQ6I.js",
   "index.html",
   "logo_air_algerie.png",
   "manifest.webmanifest",
