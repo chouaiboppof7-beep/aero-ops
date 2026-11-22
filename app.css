@@ -196,3 +196,13 @@ pre.mono { margin: 0; white-space: pre-wrap; word-break: break-word; font-size: 
 .toast.show { opacity: 1; transform: translate(-50%, 0); }
 .reftitle, .ititle, .ptitle, .clamp2, .clamp3, .titlerow b, .hitrow b, .subtitle { overflow-wrap: anywhere; }
 .az.num { font-size: 12px; }
+.perf { display: flex; flex-direction: column; gap: 10px; }
+.perfrow { display: flex; flex-direction: column; gap: 6px; }
+.perfmodel { background: var(--s-low); border-radius: 10px; padding: 8px 10px; display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+.perfmodel-v { font-family: var(--mono); font-weight: 600; font-size: 14px; }
+.perf .cell-v.small { white-space: normal; font-size: 13px; line-height: 17px; }
+pre.rawtable { overflow-x: auto; white-space: pre; font-size: 12px; line-height: 17px; background: var(--s); border-radius: 10px; padding: 10px; }
+.inbox-l b { font-size: 14px; font-weight: 800; letter-spacing: 1px; color: var(--text); margin-left: 2px; }
+.inbox.focused .inbox-l b { color: var(--primary); }
+.perf .cell-l { white-space: normal; }
+@media (max-width: 640px) { .perf .cells4 { grid-template-columns: 1fr 1fr; } }

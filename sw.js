@@ -1,5 +1,5 @@
 /* Service worker : l'appli fonctionne entièrement hors ligne après la 1re ouverture. */
-const CACHE = 'aeroops-202611221126';
+const CACHE = 'aeroops-202611221201';
 const FILES = [
   "./",
   "app.css",
@@ -10,7 +10,7 @@ const FILES = [
   "icon-192.png",
   "icon-512.png",
   "icon-maskable-512.png",
-  "importer-JMATEQ6I.js",
+  "importer-26HHGXKO.js",
   "index.html",
   "logo_air_algerie.png",
   "manifest.webmanifest",
