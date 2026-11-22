@@ -1,20 +1,20 @@
 /* Service worker : l'appli fonctionne entièrement hors ligne après la 1re ouverture. */
-const CACHE = 'aeroops-202611212355';
+const CACHE = 'aeroops-202611221108';
 const FILES = [
   "./",
-  "css/app.css",
-  "icons/apple-touch-icon.png",
-  "icons/favicon-32.png",
-  "icons/icon-192.png",
-  "icons/icon-512.png",
-  "icons/icon-maskable-512.png",
-  "icons/logo_air_algerie.png",
+  "app.css",
+  "app.js",
+  "apple-touch-icon.png",
+  "chunk-7I563G2N.js",
+  "favicon-32.png",
+  "icon-192.png",
+  "icon-512.png",
+  "icon-maskable-512.png",
+  "importer-NYF436NX.js",
   "index.html",
-  "js/app.js",
-  "js/chunk-7I563G2N.js",
-  "js/importer-3MPP5NLS.js",
-  "lib/pdf.worker.js",
+  "logo_air_algerie.png",
   "manifest.webmanifest",
+  "pdf.worker.js",
 ];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)).then(() => self.skipWaiting()));
